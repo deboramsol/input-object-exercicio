@@ -1,0 +1,12 @@
+<template>
+	<div class="app slds-p-around_x-large">
+		<h1 class="slds-text-heading_large">Dados do Formulário</h1>
+
+		<lightning-input type="text" label="Primeiro Nome" name="FirstName" onchange={handleInputChange}></lightning-input>
+		<lightning-input type="text" label="Sobrenome" name="LastName" onchange={handleInputChange}></lightning-input>
+		<lightning-input type="email" label="Email" name="Email" onchange={handleInputChange}></lightning-input>
+		<lightning-input type="site" label="Website" name="Website" onchange={handleInputChange}></lightning-input>
+		<lightning-input type="text" label="Empresa" name="Company" onchange={handleInputChange}></lightning-input>
+		<lightning-button variant="brand" label="Salvar" class="slds-m-left_x-small"></lightning-button>
+	</div>
+</template>

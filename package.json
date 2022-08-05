@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/deboramsol.lwc-l6gq8u1f",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve PX146Aq9Ykvolg1kqhjs --open"
+  }
+}
